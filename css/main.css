@@ -1,9 +1,83 @@
 #container{
  display: grid;
- grid-template-columns: repeat (3, 1fr);
+ grid-template-columns: 1fr 1fr 1fr 1fr 1fr  ;
  grid-template-rows: auto;
 }
-
+ul {
+    list-style-type: none;
+    display: inline;
+  }
+li {
+    padding-bottom: 10px;
+}
 .hidden{
     display: none;
 }
+
+#league{
+    display: grid;
+    grid-column: 1 / span 2;
+    font-size: 24px;
+  }
+
+.worlds_logo{
+    display: grid;
+    grid-column: 3 / 4;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+
+}
+
+.team_stats{
+    display: grid;
+    grid-column: 4/ span  2;
+    padding-left: 20px;
+    font-size: 24px;
+}
+
+.cloud9{
+    display: grid;
+    grid-column: 3/ span 1;
+}
+
+.team_name{
+    display: grid;
+    grid-column: 2/ span 1;
+    grid-row: 2/ span 1;
+    
+}
+
+#teams{
+    display: grid;
+    grid-column: 1 / span 2;
+    grid-row: 5 / span 2;
+    padding: 5px;
+    margin-right: 20px;
+    
+}
+
+#positions{
+    display: grid;
+    grid-column: 3/ span 1;
+    grid-row: 4/ span 1;
+    
+}
+
+#cloud9_players{
+    display: grid;
+    grid-column: 3/ span 1;
+    grid-row: 5/ span 2;
+    padding: 0px;
+    font-size: 10px;
+    
+}
+
+#stats{
+    display: grid;
+    grid-column: 4 / span 2;
+    grid-row: 4 / span 1;
+    margin-left: 30px; 
+}
+
